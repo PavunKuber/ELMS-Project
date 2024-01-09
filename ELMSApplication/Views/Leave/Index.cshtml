@@ -1,0 +1,84 @@
+@model IEnumerable<ELMSApplication.Leave>
+@using Microsoft.AspNetCore.Http;
+@using Microsoft.AspNetCore.Mvc;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>Welcome @Context.Session.GetString("EmployeeName")</h4> 
+<div class="nav-item">
+    <a class="nav-link " asp-area="left" asp-controller="Leave" asp-action="LogOut"><b>LogOut</b></a>
+    </div>
+
+<h1 align="center">Leave Dashboard</h1>
+<br></br>
+ @if (@Context.Session.GetString("Admin") != null && @Context.Session.GetString("Admin").Equals("False"))
+ {
+<p>    
+     <input type="button"
+         value="Create" class="btn btn-success"
+         onclick="location.href='@Url.Action("Create", "Leave")'" />
+</p>
+ }
+else
+{
+<p align="right"><b>To give employee access to the system <a href="http://localhost:5158/swagger/index.html" target="_blank">Click here</a></b></p>
+}
+<br><br/>
+<table class="table table-bordered">
+      <thead class="thead-light">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LeaveType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LeaveType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+              <td>
+                <input type="button" value="View" class="btn btn-secondary" onclick="location.href='@Url.Action("Details", "Leave", new { id = item.LeaveId})'"  />    
+                @if (@Context.Session.GetString("Admin") != null && @Context.Session.GetString("Admin").Equals("True")){ 
+                <input type="button" value="Approved" class="btn btn-success" onclick="location.href='@Url.Action("Approved", "Leave", new { id = item.LeaveId})'"  />    
+                 <input type="button" value="Rejected" class="btn btn-danger" onclick="location.href='@Url.Action("Rejected", "Leave", new { id = item.LeaveId})'"  />      
+                }   
+               else
+                {
+                    <input type="button" value="Edit" class="btn btn-info" onclick="location.href='@Url.Action("Edit", "Leave", new { id = item.LeaveId})'"  />
+                    <input type="button" value="Delete" class="btn btn-danger"  onclick="location.href='@Url.Action("Delete", "Leave", new { id = item.LeaveId})'" />
+                }  
+                  
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

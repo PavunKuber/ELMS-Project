@@ -1,0 +1,706 @@
+2023-05-30 21:53:20.895 +05:30 [INF] User profile is available. Using 'C:\Users\skart\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-30 21:54:20.708 +05:30 [INF] User profile is available. Using 'C:\Users\skart\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-30 21:59:29.177 +05:30 [INF] User profile is available. Using 'C:\Users\skart\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-30 21:59:29.300 +05:30 [INF] Now listening on: http://localhost:5279
+2023-05-30 21:59:29.343 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-30 21:59:29.343 +05:30 [INF] Hosting environment: Development
+2023-05-30 21:59:29.343 +05:30 [INF] Content root path: C:\Users\skart\OneDrive\ELMSApplication
+2023-05-30 21:59:30.236 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ - -
+2023-05-30 21:59:30.285 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-30 21:59:30.448 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 21:59:30.456 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.HomeController.Index (ELMSApplication)'
+2023-05-30 21:59:30.519 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ELMSApplication.Controllers.HomeController (ELMSApplication).
+2023-05-30 21:59:30.546 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-30 21:59:30.800 +05:30 [INF] Executed ViewResult - view Index executed in 262.8814ms.
+2023-05-30 21:59:30.831 +05:30 [INF] Executed action ELMSApplication.Controllers.HomeController.Index (ELMSApplication) in 310.9194ms
+2023-05-30 21:59:30.831 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.HomeController.Index (ELMSApplication)'
+2023-05-30 21:59:30.839 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ - - - 200 - text/html;+charset=utf-8 605.7315ms
+2023-05-30 21:59:30.987 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - -
+2023-05-30 21:59:31.001 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 21:59:31.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 5.0624ms
+2023-05-30 21:59:31.015 +05:30 [INF] Sending file. Request path: '/ELMSApplication.styles.css'. Physical path: 'C:\Users\skart\OneDrive\ELMSApplication\obj\Debug\net7.0\scopedcss\bundle\ELMSApplication.styles.css'
+2023-05-30 21:59:31.016 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - - - 200 1821 text/css 29.7507ms
+2023-05-30 21:59:35.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/Account/Login - -
+2023-05-30 21:59:35.473 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 21:59:35.474 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 21:59:35.481 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 21:59:35.486 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 21:59:35.550 +05:30 [INF] Executed ViewResult - view Login executed in 66.5691ms.
+2023-05-30 21:59:35.550 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 68.9809ms
+2023-05-30 21:59:35.551 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 21:59:35.551 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/Account/Login - - - 200 - text/html;+charset=utf-8 82.9391ms
+2023-05-30 21:59:35.567 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 21:59:35.568 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3362ms
+2023-05-30 21:59:37.514 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239
+2023-05-30 21:59:37.520 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 21:59:37.521 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 21:59:37.554 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 21:59:44.797 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239
+2023-05-30 21:59:44.798 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 21:59:44.799 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 21:59:44.799 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 21:59:44.810 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 21:59:44.817 +05:30 [INF] Executed ViewResult - view Login executed in 6.9164ms.
+2023-05-30 21:59:44.817 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 18.5838ms
+2023-05-30 21:59:44.818 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 21:59:44.818 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239 - 200 - text/html;+charset=utf-8 20.4299ms
+2023-05-30 21:59:44.854 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 21:59:44.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 5.0153ms
+2023-05-30 21:59:52.768 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 21:59:52.776 +05:30 [INF] Executed ViewResult - view Login executed in 7.5998ms.
+2023-05-30 21:59:52.776 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 15221.6692ms
+2023-05-30 21:59:52.776 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 21:59:52.776 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239 - 200 - text/html;+charset=utf-8 15261.9011ms
+2023-05-30 21:59:59.858 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 257
+2023-05-30 21:59:59.859 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 21:59:59.860 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 21:59:59.860 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:00:09.310 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 257
+2023-05-30 22:00:09.311 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 22:00:09.311 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:00:09.311 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:00:09.313 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 22:00:09.318 +05:30 [INF] Executed ViewResult - view Login executed in 5.0016ms.
+2023-05-30 22:00:09.318 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 6.9559ms
+2023-05-30 22:00:09.319 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:00:09.319 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 257 - 200 - text/html;+charset=utf-8 8.7050ms
+2023-05-30 22:00:09.346 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:00:09.346 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4375ms
+2023-05-30 22:00:11.515 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239
+2023-05-30 22:00:11.517 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 22:00:11.522 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:00:11.523 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:00:14.208 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 22:00:14.211 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 22:00:14.212 +05:30 [INF] Executed ViewResult - view Login executed in 4.1124ms.
+2023-05-30 22:00:14.212 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 14352.3609ms
+2023-05-30 22:00:14.213 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:00:14.213 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 257 - 200 - text/html;+charset=utf-8 14354.5702ms
+2023-05-30 22:00:14.218 +05:30 [INF] Executed ViewResult - view Login executed in 6.6213ms.
+2023-05-30 22:00:14.218 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 2695.2039ms
+2023-05-30 22:00:14.218 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:00:14.218 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239 - 200 - text/html;+charset=utf-8 2703.6615ms
+2023-05-30 22:00:14.290 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:00:14.291 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4342ms
+2023-05-30 22:03:26.600 +05:30 [INF] User profile is available. Using 'C:\Users\skart\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-30 22:03:26.744 +05:30 [INF] Now listening on: http://localhost:5279
+2023-05-30 22:03:26.752 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-30 22:03:26.752 +05:30 [INF] Hosting environment: Development
+2023-05-30 22:03:26.752 +05:30 [INF] Content root path: C:\Users\skart\OneDrive\ELMSApplication
+2023-05-30 22:03:27.302 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ - -
+2023-05-30 22:03:27.375 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-30 22:03:27.497 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 22:03:27.502 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.HomeController.Index (ELMSApplication)'
+2023-05-30 22:03:27.550 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ELMSApplication.Controllers.HomeController (ELMSApplication).
+2023-05-30 22:03:27.577 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-30 22:03:27.748 +05:30 [INF] Executed ViewResult - view Index executed in 172.2192ms.
+2023-05-30 22:03:27.751 +05:30 [INF] Executed action ELMSApplication.Controllers.HomeController.Index (ELMSApplication) in 200.1699ms
+2023-05-30 22:03:27.751 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.HomeController.Index (ELMSApplication)'
+2023-05-30 22:03:27.782 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ - - - 200 - text/html;+charset=utf-8 479.2890ms
+2023-05-30 22:03:27.816 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - -
+2023-05-30 22:03:27.818 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:03:27.828 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 10.5277ms
+2023-05-30 22:03:27.848 +05:30 [INF] The file /ELMSApplication.styles.css was not modified
+2023-05-30 22:03:27.849 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - - - 304 - text/css 32.5604ms
+2023-05-30 22:03:30.387 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/Account/Login - -
+2023-05-30 22:03:30.394 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 22:03:30.395 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:03:30.397 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:03:30.400 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 22:03:30.500 +05:30 [INF] Executed ViewResult - view Login executed in 101.1844ms.
+2023-05-30 22:03:30.500 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 103.2478ms
+2023-05-30 22:03:30.501 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:03:30.501 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/Account/Login - - - 200 - text/html;+charset=utf-8 114.1881ms
+2023-05-30 22:03:30.521 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:03:30.522 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4391ms
+2023-05-30 22:03:34.859 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 257
+2023-05-30 22:03:34.865 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 22:03:34.866 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:03:34.901 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:03:49.430 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 22:03:49.444 +05:30 [INF] Executed ViewResult - view Login executed in 14.6908ms.
+2023-05-30 22:03:49.444 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 14543.4886ms
+2023-05-30 22:03:49.444 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:03:49.445 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 257 - 200 - text/html;+charset=utf-8 14585.8698ms
+2023-05-30 22:03:49.497 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:03:49.497 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2193ms
+2023-05-30 22:08:04.384 +05:30 [INF] User profile is available. Using 'C:\Users\skart\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-30 22:08:04.525 +05:30 [INF] Now listening on: http://localhost:5279
+2023-05-30 22:08:04.536 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-30 22:08:04.536 +05:30 [INF] Hosting environment: Development
+2023-05-30 22:08:04.537 +05:30 [INF] Content root path: C:\Users\skart\OneDrive\ELMSApplication
+2023-05-30 22:08:04.648 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 257
+2023-05-30 22:08:04.692 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-30 22:08:04.798 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 22:08:04.805 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:08:04.912 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:08:05.611 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-30 22:08:05.651 +05:30 [INF] Executing RedirectResult, redirecting to /api/Leave/Leave/Index.
+2023-05-30 22:08:05.659 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 740.046ms
+2023-05-30 22:08:05.660 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:08:05.665 +05:30 [INF] Session started; Key:563930e7-87c4-f675-e7fd-1421ebc8808b, Id:c8bd1d5f-49be-2b33-ef3a-758363c7f4f3
+2023-05-30 22:08:05.673 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 257 - 302 0 - 1027.3343ms
+2023-05-30 22:08:05.685 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - -
+2023-05-30 22:08:05.698 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:08:05.705 +05:30 [INF] Route matched with {action = "Index", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:08:11.342 +05:30 [INF] Executed DbCommand (137ms) [Parameters=[@__employeeId_0='?' (Size = 75)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[EmployeeId] = @__employeeId_0
+2023-05-30 22:08:11.400 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-30 22:08:11.500 +05:30 [INF] Executed ViewResult - view Index executed in 106.0434ms.
+2023-05-30 22:08:11.502 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Index (ELMSApplication) in 5796.0437ms
+2023-05-30 22:08:11.502 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:08:11.529 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - - - 200 - text/html;+charset=utf-8 5843.1973ms
+2023-05-30 22:08:11.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:08:11.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - -
+2023-05-30 22:08:11.536 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 2.2667ms
+2023-05-30 22:08:11.540 +05:30 [INF] The file /ELMSApplication.styles.css was not modified
+2023-05-30 22:08:11.541 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - - - 304 - text/css 6.4271ms
+2023-05-30 22:10:55.195 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ - -
+2023-05-30 22:10:55.212 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 22:10:55.212 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.HomeController.Index (ELMSApplication)'
+2023-05-30 22:10:55.217 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ELMSApplication.Controllers.HomeController (ELMSApplication).
+2023-05-30 22:10:55.221 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-30 22:10:55.239 +05:30 [INF] Executed ViewResult - view Index executed in 20.3926ms.
+2023-05-30 22:10:55.239 +05:30 [INF] Executed action ELMSApplication.Controllers.HomeController.Index (ELMSApplication) in 21.7615ms
+2023-05-30 22:10:55.239 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.HomeController.Index (ELMSApplication)'
+2023-05-30 22:10:55.239 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ - - - 200 - text/html;+charset=utf-8 44.1887ms
+2023-05-30 22:10:55.348 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - -
+2023-05-30 22:10:55.362 +05:30 [INF] Sending file. Request path: '/ELMSApplication.styles.css'. Physical path: 'C:\Users\skart\OneDrive\ELMSApplication\obj\Debug\net7.0\scopedcss\bundle\ELMSApplication.styles.css'
+2023-05-30 22:10:55.363 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - - - 200 1821 text/css 14.7235ms
+2023-05-30 22:10:55.376 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:10:55.376 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2978ms
+2023-05-30 22:10:57.483 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/Account/Login - -
+2023-05-30 22:10:57.485 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 22:10:57.485 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:10:57.489 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:10:57.493 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 22:10:57.561 +05:30 [INF] Executed ViewResult - view Login executed in 70.3077ms.
+2023-05-30 22:10:57.561 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 72.545ms
+2023-05-30 22:10:57.561 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:10:57.561 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/Account/Login - - - 200 - text/html;+charset=utf-8 77.9329ms
+2023-05-30 22:10:57.589 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:10:57.589 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2447ms
+2023-05-30 22:11:08.573 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239
+2023-05-30 22:11:08.574 +05:30 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2023-05-30 22:11:08.575 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:11:08.575 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:11:08.602 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-30 22:11:08.603 +05:30 [INF] Executing RedirectResult, redirecting to /api/Leave/Leave/Index.
+2023-05-30 22:11:08.603 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 27.6583ms
+2023-05-30 22:11:08.603 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:11:08.603 +05:30 [INF] Session started; Key:24546468-fc2a-951d-e37e-7c46e1eec036, Id:f057b1d6-afca-6c27-1437-6270b27836cd
+2023-05-30 22:11:08.603 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239 - 302 0 - 30.5122ms
+2023-05-30 22:11:08.608 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - -
+2023-05-30 22:11:08.618 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:11:08.618 +05:30 [INF] Route matched with {action = "Index", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:11:08.646 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__employeeId_0='?' (Size = 75)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[EmployeeId] = @__employeeId_0
+2023-05-30 22:11:08.649 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-30 22:11:08.661 +05:30 [INF] Executed ViewResult - view Index executed in 11.6982ms.
+2023-05-30 22:11:08.661 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Index (ELMSApplication) in 42.9417ms
+2023-05-30 22:11:08.661 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:11:08.663 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - - - 200 - text/html;+charset=utf-8 55.1516ms
+2023-05-30 22:11:08.688 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:11:08.689 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2771ms
+2023-05-30 22:11:11.588 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Delete/67 - -
+2023-05-30 22:11:11.592 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Delete (ELMSApplication)'
+2023-05-30 22:11:11.603 +05:30 [INF] Route matched with {action = "Delete", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:11:11.730 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[LeaveId] = @__id_0
+2023-05-30 22:11:11.787 +05:30 [INF] Executing ViewResult, running view Delete.
+2023-05-30 22:11:11.801 +05:30 [INF] Executed ViewResult - view Delete executed in 14.9568ms.
+2023-05-30 22:11:11.801 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Delete (ELMSApplication) in 197.7324ms
+2023-05-30 22:11:11.801 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Delete (ELMSApplication)'
+2023-05-30 22:11:11.801 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Delete/67 - - - 200 - text/html;+charset=utf-8 213.0087ms
+2023-05-30 22:11:11.832 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:11:11.832 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2001ms
+2023-05-30 22:11:13.081 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/Leave/Delete/67 application/x-www-form-urlencoded 236
+2023-05-30 22:11:13.082 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-05-30 22:11:13.082 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-05-30 22:11:13.082 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/Leave/Delete/67 application/x-www-form-urlencoded 236 - 405 0 - 0.7722ms
+2023-05-30 22:11:17.250 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:11:17.250 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3706ms
+2023-05-30 22:11:19.933 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Edit/67 - -
+2023-05-30 22:11:19.933 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:11:19.941 +05:30 [INF] Route matched with {action = "Edit", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32]) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:11:20.055 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[LeaveId] = @__p_0
+2023-05-30 22:11:20.062 +05:30 [INF] Executing ViewResult, running view Edit.
+2023-05-30 22:11:20.103 +05:30 [INF] Executed ViewResult - view Edit executed in 41.775ms.
+2023-05-30 22:11:20.103 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication) in 162.0534ms
+2023-05-30 22:11:20.103 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:11:20.104 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Edit/67 - - - 200 - text/html;+charset=utf-8 170.6469ms
+2023-05-30 22:11:20.135 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:11:20.136 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1873ms
+2023-05-30 22:11:22.532 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/Leave/Edit/67 application/x-www-form-urlencoded 388
+2023-05-30 22:11:22.532 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:11:22.538 +05:30 [INF] Route matched with {action = "Edit", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(Int32, ELMSApplication.Leave) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:11:22.617 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-30 22:11:22.630 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication) in 92.5596ms
+2023-05-30 22:11:22.631 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:11:22.631 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/Leave/Edit/67 application/x-www-form-urlencoded 388 - 415 - application/problem+json;+charset=utf-8 99.0123ms
+2023-05-30 22:11:28.407 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Edit/67 - -
+2023-05-30 22:11:28.409 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:11:28.409 +05:30 [INF] Route matched with {action = "Edit", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32]) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:11:28.416 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[LeaveId] = @__p_0
+2023-05-30 22:11:28.416 +05:30 [INF] Executing ViewResult, running view Edit.
+2023-05-30 22:11:28.422 +05:30 [INF] Executed ViewResult - view Edit executed in 5.8125ms.
+2023-05-30 22:11:28.422 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication) in 13.0444ms
+2023-05-30 22:11:28.422 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:11:28.423 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Edit/67 - - - 200 - text/html;+charset=utf-8 15.5713ms
+2023-05-30 22:11:28.448 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:11:28.448 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1578ms
+2023-05-30 22:11:29.984 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:11:29.984 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1823ms
+2023-05-30 22:11:31.677 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave - -
+2023-05-30 22:11:31.696 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ELMSApplication.Controllers.LeaveController.RejectedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.UserProfile (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.LogOut (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.ApprovedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.Create (ELMSApplication)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-30 22:11:31.731 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave - - - 500 - text/html;+charset=utf-8 53.5115ms
+2023-05-30 22:11:31.794 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:11:31.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1760ms
+2023-05-30 22:11:49.842 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:11:49.843 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3431ms
+2023-05-30 22:11:51.699 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Delete/67 - -
+2023-05-30 22:11:51.700 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Delete (ELMSApplication)'
+2023-05-30 22:11:51.700 +05:30 [INF] Route matched with {action = "Delete", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:11:51.705 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[LeaveId] = @__id_0
+2023-05-30 22:11:51.706 +05:30 [INF] Executing ViewResult, running view Delete.
+2023-05-30 22:11:51.709 +05:30 [INF] Executed ViewResult - view Delete executed in 3.3977ms.
+2023-05-30 22:11:51.710 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Delete (ELMSApplication) in 9.6893ms
+2023-05-30 22:11:51.710 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Delete (ELMSApplication)'
+2023-05-30 22:11:51.710 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Delete/67 - - - 200 - text/html;+charset=utf-8 10.6414ms
+2023-05-30 22:11:51.751 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:11:51.751 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1125ms
+2023-05-30 22:11:53.450 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/Leave/Delete/67 application/x-www-form-urlencoded 236
+2023-05-30 22:11:53.450 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-05-30 22:11:53.451 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-05-30 22:11:53.452 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/Leave/Delete/67 application/x-www-form-urlencoded 236 - 405 0 - 0.9241ms
+2023-05-30 22:14:36.343 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave - -
+2023-05-30 22:14:36.355 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ELMSApplication.Controllers.LeaveController.RejectedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.UserProfile (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.LogOut (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.ApprovedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.Create (ELMSApplication)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-30 22:14:36.367 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave - - - 500 - text/html;+charset=utf-8 24.3204ms
+2023-05-30 22:14:36.408 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:14:36.408 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2500ms
+2023-05-30 22:14:43.613 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:14:43.613 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2584ms
+2023-05-30 22:14:45.293 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Delete/67 - -
+2023-05-30 22:14:45.294 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-30 22:14:45.297 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-30 22:14:45.300 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-05-30 22:14:45.301 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Delete/67 - - - 302 0 - 7.7855ms
+2023-05-30 22:14:45.303 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/Account/Login?ReturnUrl=%2Fapi%2FLeave%2FDelete%2F67 - -
+2023-05-30 22:14:45.304 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-30 22:14:45.304 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:14:45.304 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:14:45.304 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 22:14:45.306 +05:30 [INF] Executed ViewResult - view Login executed in 2.1775ms.
+2023-05-30 22:14:45.306 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 2.3546ms
+2023-05-30 22:14:45.306 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:14:45.306 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/Account/Login?ReturnUrl=%2Fapi%2FLeave%2FDelete%2F67 - - - 200 - text/html;+charset=utf-8 3.0977ms
+2023-05-30 22:14:45.335 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - -
+2023-05-30 22:14:45.336 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:14:45.336 +05:30 [INF] The file /ELMSApplication.styles.css was not modified
+2023-05-30 22:14:45.336 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3435ms
+2023-05-30 22:14:45.336 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - - - 304 - text/css 0.8944ms
+2023-05-30 22:14:47.107 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239
+2023-05-30 22:14:47.107 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-30 22:14:47.107 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:14:47.107 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:14:47.120 +05:30 [INF] Accessing expired session, Key:563930e7-87c4-f675-e7fd-1421ebc8808b
+2023-05-30 22:14:47.120 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-30 22:14:47.120 +05:30 [INF] Executing RedirectResult, redirecting to /api/Leave/Leave/Index.
+2023-05-30 22:14:47.120 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 12.9624ms
+2023-05-30 22:14:47.120 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:14:47.120 +05:30 [INF] Session started; Key:563930e7-87c4-f675-e7fd-1421ebc8808b, Id:5f888bcf-0a0f-e161-fde1-bcddd76684fc
+2023-05-30 22:14:47.120 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239 - 302 0 - 13.7996ms
+2023-05-30 22:14:47.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - -
+2023-05-30 22:14:47.123 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:14:47.124 +05:30 [INF] Route matched with {action = "Index", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:14:47.127 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__employeeId_0='?' (Size = 75)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[EmployeeId] = @__employeeId_0
+2023-05-30 22:14:47.128 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-30 22:14:47.147 +05:30 [INF] Executed ViewResult - view Index executed in 18.4814ms.
+2023-05-30 22:14:47.147 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Index (ELMSApplication) in 23.3821ms
+2023-05-30 22:14:47.147 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:14:47.147 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - - - 200 - text/html;+charset=utf-8 24.1868ms
+2023-05-30 22:14:47.176 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:14:47.176 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1732ms
+2023-05-30 22:14:48.852 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Delete/67 - -
+2023-05-30 22:14:48.852 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Delete (ELMSApplication)'
+2023-05-30 22:14:48.852 +05:30 [INF] Route matched with {action = "Delete", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32]) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:14:48.857 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[LeaveId] = @__id_0
+2023-05-30 22:14:48.858 +05:30 [INF] Executing ViewResult, running view Delete.
+2023-05-30 22:14:48.860 +05:30 [INF] Executed ViewResult - view Delete executed in 2.5872ms.
+2023-05-30 22:14:48.860 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Delete (ELMSApplication) in 7.854ms
+2023-05-30 22:14:48.860 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Delete (ELMSApplication)'
+2023-05-30 22:14:48.861 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Delete/67 - - - 200 - text/html;+charset=utf-8 8.8425ms
+2023-05-30 22:14:48.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:14:48.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1606ms
+2023-05-30 22:14:50.065 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/Leave/Delete/67 application/x-www-form-urlencoded 236
+2023-05-30 22:14:50.065 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-05-30 22:14:50.065 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-05-30 22:14:50.065 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/Leave/Delete/67 application/x-www-form-urlencoded 236 - 405 0 - 0.4780ms
+2023-05-30 22:18:57.723 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:18:57.723 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3255ms
+2023-05-30 22:18:59.492 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave - -
+2023-05-30 22:18:59.493 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ELMSApplication.Controllers.LeaveController.RejectedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.UserProfile (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.LogOut (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.ApprovedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.Create (ELMSApplication)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-30 22:18:59.507 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave - - - 500 - text/html;+charset=utf-8 15.0008ms
+2023-05-30 22:18:59.539 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:18:59.540 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1776ms
+2023-05-30 22:19:03.334 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave - -
+2023-05-30 22:19:03.339 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ELMSApplication.Controllers.LeaveController.RejectedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.UserProfile (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.LogOut (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.ApprovedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.Create (ELMSApplication)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-30 22:19:03.345 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave - - - 500 - text/html;+charset=utf-8 10.6496ms
+2023-05-30 22:19:03.367 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:19:03.372 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 4.5259ms
+2023-05-30 22:19:05.070 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave - -
+2023-05-30 22:19:05.071 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ELMSApplication.Controllers.LeaveController.RejectedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.UserProfile (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.LogOut (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.ApprovedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.Create (ELMSApplication)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-30 22:19:05.078 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave - - - 500 - text/html;+charset=utf-8 7.7770ms
+2023-05-30 22:19:05.097 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:19:05.097 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1654ms
+2023-05-30 22:19:06.436 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:19:06.436 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1440ms
+2023-05-30 22:19:08.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Edit/67 - -
+2023-05-30 22:19:08.469 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-30 22:19:08.469 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-30 22:19:08.470 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-05-30 22:19:08.470 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Edit/67 - - - 302 0 - 1.9411ms
+2023-05-30 22:19:08.474 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/Account/Login?ReturnUrl=%2Fapi%2FLeave%2FEdit%2F67 - -
+2023-05-30 22:19:08.474 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-30 22:19:08.475 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:19:08.475 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:19:08.475 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 22:19:08.478 +05:30 [INF] Executed ViewResult - view Login executed in 3.1428ms.
+2023-05-30 22:19:08.478 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 3.4939ms
+2023-05-30 22:19:08.478 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:19:08.479 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/Account/Login?ReturnUrl=%2Fapi%2FLeave%2FEdit%2F67 - - - 200 - text/html;+charset=utf-8 4.8016ms
+2023-05-30 22:19:08.507 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - -
+2023-05-30 22:19:08.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:19:08.508 +05:30 [INF] The file /ELMSApplication.styles.css was not modified
+2023-05-30 22:19:08.508 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - - - 304 - text/css 1.8516ms
+2023-05-30 22:19:08.508 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1242ms
+2023-05-30 22:19:10.442 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239
+2023-05-30 22:19:10.442 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-30 22:19:10.443 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:19:10.443 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:19:10.447 +05:30 [INF] Accessing expired session, Key:563930e7-87c4-f675-e7fd-1421ebc8808b
+2023-05-30 22:19:10.448 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-30 22:19:10.448 +05:30 [INF] Executing RedirectResult, redirecting to /api/Leave/Leave/Index.
+2023-05-30 22:19:10.448 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 5.0537ms
+2023-05-30 22:19:10.448 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:19:10.448 +05:30 [INF] Session started; Key:563930e7-87c4-f675-e7fd-1421ebc8808b, Id:2fb8540a-c8a5-5de2-912d-d31c672e5a77
+2023-05-30 22:19:10.448 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 239 - 302 0 - 5.9157ms
+2023-05-30 22:19:10.452 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - -
+2023-05-30 22:19:10.453 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:19:10.453 +05:30 [INF] Route matched with {action = "Index", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:19:10.457 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__employeeId_0='?' (Size = 75)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[EmployeeId] = @__employeeId_0
+2023-05-30 22:19:10.457 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-30 22:19:10.479 +05:30 [INF] Executed ViewResult - view Index executed in 21.3023ms.
+2023-05-30 22:19:10.479 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Index (ELMSApplication) in 25.655ms
+2023-05-30 22:19:10.479 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:19:10.479 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - - - 200 - text/html;+charset=utf-8 26.4872ms
+2023-05-30 22:19:10.499 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:19:10.506 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 6.9864ms
+2023-05-30 22:19:12.475 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Details/67 - -
+2023-05-30 22:19:12.475 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Details (ELMSApplication)'
+2023-05-30 22:19:12.483 +05:30 [INF] Route matched with {action = "Details", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Nullable`1[System.Int32]) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:19:12.486 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[LeaveId] = @__id_0
+2023-05-30 22:19:12.489 +05:30 [INF] Executing ViewResult, running view Details.
+2023-05-30 22:19:12.497 +05:30 [INF] Executed ViewResult - view Details executed in 9.4859ms.
+2023-05-30 22:19:12.497 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Details (ELMSApplication) in 14.0835ms
+2023-05-30 22:19:12.497 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Details (ELMSApplication)'
+2023-05-30 22:19:12.498 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Details/67 - - - 200 - text/html;+charset=utf-8 22.8134ms
+2023-05-30 22:19:12.519 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:19:12.519 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1287ms
+2023-05-30 22:19:14.574 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - -
+2023-05-30 22:19:14.575 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:19:14.575 +05:30 [INF] Route matched with {action = "Index", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:19:14.579 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__employeeId_0='?' (Size = 75)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[EmployeeId] = @__employeeId_0
+2023-05-30 22:19:14.583 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-30 22:19:14.601 +05:30 [INF] Executed ViewResult - view Index executed in 18.3834ms.
+2023-05-30 22:19:14.601 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Index (ELMSApplication) in 26.5143ms
+2023-05-30 22:19:14.601 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:19:14.601 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - - - 200 - text/html;+charset=utf-8 27.7577ms
+2023-05-30 22:19:14.638 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:19:14.638 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1527ms
+2023-05-30 22:19:17.116 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Details/67 - -
+2023-05-30 22:19:17.116 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Details (ELMSApplication)'
+2023-05-30 22:19:17.116 +05:30 [INF] Route matched with {action = "Details", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Nullable`1[System.Int32]) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:19:17.119 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[LeaveId] = @__id_0
+2023-05-30 22:19:17.123 +05:30 [INF] Executing ViewResult, running view Details.
+2023-05-30 22:19:17.124 +05:30 [INF] Executed ViewResult - view Details executed in 1.6174ms.
+2023-05-30 22:19:17.126 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Details (ELMSApplication) in 9.234ms
+2023-05-30 22:19:17.126 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Details (ELMSApplication)'
+2023-05-30 22:19:17.126 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Details/67 - - - 200 - text/html;+charset=utf-8 10.3783ms
+2023-05-30 22:19:17.157 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:19:17.157 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1985ms
+2023-05-30 22:19:18.403 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Edit/67 - -
+2023-05-30 22:19:18.403 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:19:18.404 +05:30 [INF] Route matched with {action = "Edit", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32]) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:19:18.408 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+WHERE [l].[LeaveId] = @__p_0
+2023-05-30 22:19:18.409 +05:30 [INF] Executing ViewResult, running view Edit.
+2023-05-30 22:19:18.412 +05:30 [INF] Executed ViewResult - view Edit executed in 2.978ms.
+2023-05-30 22:19:18.416 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication) in 12.0416ms
+2023-05-30 22:19:18.416 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:19:18.416 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Edit/67 - - - 200 - text/html;+charset=utf-8 12.9439ms
+2023-05-30 22:19:18.448 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:19:18.448 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1285ms
+2023-05-30 22:19:20.290 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/Leave/Edit/67 application/x-www-form-urlencoded 388
+2023-05-30 22:19:20.290 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:19:20.290 +05:30 [INF] Route matched with {action = "Edit", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(Int32, ELMSApplication.Leave) on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:19:20.293 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-30 22:19:20.294 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication) in 4.0331ms
+2023-05-30 22:19:20.294 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Edit (ELMSApplication)'
+2023-05-30 22:19:20.295 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/Leave/Edit/67 application/x-www-form-urlencoded 388 - 415 - application/problem+json;+charset=utf-8 4.8537ms
+2023-05-30 22:20:33.352 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:20:33.353 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2510ms
+2023-05-30 22:20:36.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Details/67 - -
+2023-05-30 22:20:36.652 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-30 22:20:36.653 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-30 22:20:36.653 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-05-30 22:20:36.653 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Details/67 - - - 302 0 - 1.0372ms
+2023-05-30 22:20:36.656 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/Account/Login?ReturnUrl=%2Fapi%2FLeave%2FDetails%2F67 - -
+2023-05-30 22:20:36.657 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-30 22:20:36.657 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:20:36.657 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:20:36.657 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-30 22:20:36.660 +05:30 [INF] Executed ViewResult - view Login executed in 2.6392ms.
+2023-05-30 22:20:36.660 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 2.8549ms
+2023-05-30 22:20:36.660 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:20:36.660 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/Account/Login?ReturnUrl=%2Fapi%2FLeave%2FDetails%2F67 - - - 200 - text/html;+charset=utf-8 4.0483ms
+2023-05-30 22:20:36.683 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - -
+2023-05-30 22:20:36.684 +05:30 [INF] The file /ELMSApplication.styles.css was not modified
+2023-05-30 22:20:36.684 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=ID8W9YxsKgqNumCAxNiTTi2xbXG8_ZCsYON-jJDWtqQ - - - 304 - text/css 1.2146ms
+2023-05-30 22:20:36.688 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:20:36.688 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1526ms
+2023-05-30 22:20:47.451 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 240
+2023-05-30 22:20:47.451 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-05-30 22:20:47.451 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:20:47.451 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(ELMSApplication.Employee) on controller ELMSApplication.Controllers.AccountController (ELMSApplication).
+2023-05-30 22:20:47.455 +05:30 [INF] Accessing expired session, Key:24546468-fc2a-951d-e37e-7c46e1eec036
+2023-05-30 22:20:47.455 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-30 22:20:47.455 +05:30 [INF] Executing RedirectResult, redirecting to /api/Leave/Leave/Index.
+2023-05-30 22:20:47.455 +05:30 [INF] Executed action ELMSApplication.Controllers.AccountController.Login (ELMSApplication) in 4.002ms
+2023-05-30 22:20:47.455 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.AccountController.Login (ELMSApplication)'
+2023-05-30 22:20:47.455 +05:30 [INF] Session started; Key:24546468-fc2a-951d-e37e-7c46e1eec036, Id:94e0654b-fb36-b35a-cbed-95b744698513
+2023-05-30 22:20:47.456 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5279/Account/Login application/x-www-form-urlencoded 240 - 302 0 - 5.0475ms
+2023-05-30 22:20:47.461 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - -
+2023-05-30 22:20:47.461 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:20:47.462 +05:30 [INF] Route matched with {action = "Index", controller = "Leave"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ELMSApplication.Controllers.LeaveController (ELMSApplication).
+2023-05-30 22:20:47.469 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[LeaveId], [l].[EmployeeId], [l].[EndDate], [l].[LeaveType], [l].[StartDate], [l].[Status]
+FROM [Leave] AS [l]
+2023-05-30 22:20:47.469 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-30 22:20:47.503 +05:30 [INF] Executed ViewResult - view Index executed in 33.6606ms.
+2023-05-30 22:20:47.503 +05:30 [INF] Executed action ELMSApplication.Controllers.LeaveController.Index (ELMSApplication) in 41.0389ms
+2023-05-30 22:20:47.503 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.LeaveController.Index (ELMSApplication)'
+2023-05-30 22:20:47.503 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave/Leave/Index - - - 200 - text/html;+charset=utf-8 42.3662ms
+2023-05-30 22:20:47.520 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:20:47.524 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 3.2827ms
+2023-05-30 22:20:49.867 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/Leave?id=1 - -
+2023-05-30 22:20:49.881 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ELMSApplication.Controllers.LeaveController.RejectedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.UserProfile (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.LogOut (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.ApprovedAsync (ELMSApplication)
+ELMSApplication.Controllers.LeaveController.Create (ELMSApplication)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-30 22:20:49.904 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/Leave?id=1 - - - 500 - text/html;+charset=utf-8 36.9203ms
+2023-05-30 22:20:49.957 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-05-30 22:20:49.957 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2205ms

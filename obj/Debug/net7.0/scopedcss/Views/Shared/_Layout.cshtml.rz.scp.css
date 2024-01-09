@@ -1,0 +1,58 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-m2eym8tuoc] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-m2eym8tuoc] {
+  color:-webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.btn-primary[b-m2eym8tuoc] {
+  background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.nav-pills .nav-link.active[b-m2eym8tuoc], .nav-pills .show > .nav-link[b-m2eym8tuoc] {
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.border-top[b-m2eym8tuoc] {
+  
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-m2eym8tuoc] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-m2eym8tuoc] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-m2eym8tuoc] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-m2eym8tuoc] {
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

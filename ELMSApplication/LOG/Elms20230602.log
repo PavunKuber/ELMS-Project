@@ -1,0 +1,44 @@
+2023-06-02 11:13:36.929 +05:30 [INF] User profile is available. Using 'C:\Users\skart\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-02 11:13:37.080 +05:30 [INF] Now listening on: http://localhost:5279
+2023-06-02 11:13:37.087 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-02 11:13:37.087 +05:30 [INF] Hosting environment: Development
+2023-06-02 11:13:37.087 +05:30 [INF] Content root path: C:\Users\skart\ELMSApplication\ELMSApplication
+2023-06-02 11:13:37.837 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ - -
+2023-06-02 11:13:38.026 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-06-02 11:13:38.242 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-06-02 11:13:38.250 +05:30 [INF] Executing endpoint 'ELMSApplication.Controllers.HomeController.Index (ELMSApplication)'
+2023-06-02 11:13:38.293 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ELMSApplication.Controllers.HomeController (ELMSApplication).
+2023-06-02 11:13:38.308 +05:30 [INF] Executing ViewResult, running view Index.
+2023-06-02 11:13:38.483 +05:30 [INF] Executed ViewResult - view Index executed in 179.7918ms.
+2023-06-02 11:13:38.486 +05:30 [INF] Executed action ELMSApplication.Controllers.HomeController.Index (ELMSApplication) in 192.4074ms
+2023-06-02 11:13:38.486 +05:30 [INF] Executed endpoint 'ELMSApplication.Controllers.HomeController.Index (ELMSApplication)'
+2023-06-02 11:13:38.509 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ - - - 200 - text/html;+charset=utf-8 675.9425ms
+2023-06-02 11:13:38.510 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-06-02 11:13:38.511 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-06-02 11:13:38.512 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/Scripts/jquery-3.6.0.min.js - -
+2023-06-02 11:13:38.512 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=elOSKWD_5wpVMlxSFsQY-04UAvD5H845yrwkjIGX5Xg - -
+2023-06-02 11:13:38.514 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/Scripts/jquery.validate.min.js - -
+2023-06-02 11:13:38.518 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-06-02 11:13:38.519 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-06-02 11:13:38.520 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/Scripts/jquery.validate.min.js - - - 404 0 - 6.3654ms
+2023-06-02 11:13:38.520 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/Scripts/jquery-3.6.0.min.js - - - 404 0 - 7.7508ms
+2023-06-02 11:13:38.526 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/Scripts/jquery.validate.unobtrusive.min.js - -
+2023-06-02 11:13:38.526 +05:30 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2023-06-02 11:13:38.527 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/Scripts/jquery.validate.unobtrusive.min.js - - - 404 0 - 1.0058ms
+2023-06-02 11:13:38.549 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\skart\ELMSApplication\ELMSApplication\wwwroot\css\site.css'
+2023-06-02 11:13:38.549 +05:30 [INF] Sending file. Request path: '/ELMSApplication.styles.css'. Physical path: 'C:\Users\skart\ELMSApplication\ELMSApplication\obj\Debug\net7.0\scopedcss\bundle\ELMSApplication.styles.css'
+2023-06-02 11:13:38.549 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/ELMSApplication.styles.css?v=elOSKWD_5wpVMlxSFsQY-04UAvD5H845yrwkjIGX5Xg - - - 200 1536 text/css 36.6175ms
+2023-06-02 11:13:38.549 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 200 362 text/css 37.8308ms
+2023-06-02 11:13:38.598 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\skart\ELMSApplication\ELMSApplication\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-06-02 11:13:38.600 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 89.6113ms
+2023-06-02 11:13:38.605 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/lib/jquery/dist/jquery.min.js - -
+2023-06-02 11:13:38.606 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-06-02 11:13:38.607 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-06-02 11:13:38.607 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - -
+2023-06-02 11:13:38.608 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\skart\ELMSApplication\ELMSApplication\wwwroot\js\site.js'
+2023-06-02 11:13:38.608 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 0.9696ms
+2023-06-02 11:13:38.610 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 2.7372ms
+2023-06-02 11:13:38.785 +05:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\skart\ELMSApplication\ELMSApplication\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-06-02 11:13:38.785 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 179.5051ms
+2023-06-02 11:13:38.834 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\skart\ELMSApplication\ELMSApplication\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-06-02 11:13:38.834 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5279/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 227.9239ms
