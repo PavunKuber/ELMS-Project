@@ -288,3 +288,15 @@ C:\Users\skart\ELMSApplication\bin\Debug\net7.0\Serilog.Settings.Configuration.d
 C:\Users\skart\ELMSApplication\bin\Debug\net7.0\Serilog.Sinks.Console.dll
 C:\Users\skart\ELMSApplication\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
 C:\Users\skart\ELMSApplication\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.csproj.AssemblyReference.cache
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.AssemblyInfoInputs.cache
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.AssemblyInfo.cs
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.csproj.CoreCompileInputs.cache
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.RazorAssemblyInfo.cache
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.RazorAssemblyInfo.cs
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.sourcelink.json
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.dll
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\refint\ELMSApplication.dll
+C:\Users\pavun.kuber\ELMS\obj\Debug\net7.0\ELMSApplication.pdb

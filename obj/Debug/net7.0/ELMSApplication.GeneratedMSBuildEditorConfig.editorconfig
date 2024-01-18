@@ -9,185 +9,187 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ELMSApplication
 build_property.RootNamespace = ELMSApplication
-build_property.ProjectDir = c:\Users\skart\ELMSApplication\
+build_property.ProjectDir = C:\Users\pavun.kuber\ELMS\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\skart\ELMSApplication
+build_property.MSBuildProjectDirectory = C:\Users\pavun.kuber\ELMS
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Account/Index.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEFjY291bnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Account/Login.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEFjY291bnRcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Employee/Create.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEVtcGxveWVlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Employee/Delete.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEVtcGxveWVlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Employee/Details.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Employee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEVtcGxveWVlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Employee/Edit.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEVtcGxveWVlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Employee/Index.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEVtcGxveWVlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Error/Index.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Error/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEVycm9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Home/Index.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Home/Privacy.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Leave/Approved.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Leave/Approved.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXExlYXZlXEFwcHJvdmVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Leave/Create.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Leave/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXExlYXZlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Leave/Delete.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Leave/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXExlYXZlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Leave/Details.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Leave/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXExlYXZlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Leave/Edit.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Leave/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXExlYXZlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Leave/Index.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Leave/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXExlYXZlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Leave/Rejected.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Leave/Rejected.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXExlYXZlXFJlamVjdGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Shared/Error.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/_ViewImports.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/_ViewStart.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Employee/Create.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Employee/Delete.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Employee/Details.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Employee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Employee/Edit.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Employee/Index.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Employee/Login.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Employee/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Error/Index.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Error/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Home/Index.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Home/Privacy.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Home/WelcomePage.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Home/WelcomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWxjb21lUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Leave/Approved.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Leave/Approved.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcQXBwcm92ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Leave/Create.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Leave/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Leave/Delete.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Leave/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Leave/Details.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Leave/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Leave/Edit.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Leave/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Leave/Index.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Leave/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Leave/Rejected.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Leave/Rejected.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVcUmVqZWN0ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Shared/Error.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/_ViewImports.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/Views/_ViewStart.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/skart/ELMSApplication/ELMSApplication/Views/Shared/_Layout.cshtml]
+[C:/Users/pavun.kuber/ELMS/ELMSApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RUxNU0FwcGxpY2F0aW9uXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-t2qthigwl8
 
-[c:/Users/skart/ELMSApplication/Views/Shared/_Layout.cshtml]
+[C:/Users/pavun.kuber/ELMS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-m2eym8tuoc
